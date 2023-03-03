@@ -4,7 +4,7 @@ public class main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println("Programa para Calcular Area do retangulo:");
         System.out.println("Entre com valor da base em milimetros e número positivo:");
         Double base = scanner.nextDouble();
         while (base < 0) {
